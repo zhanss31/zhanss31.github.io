@@ -50,6 +50,22 @@ button{
     background-repeat: no-repeat;
     border-radius: 50%;
 }
+@media screen and (max-width:768px){
+
+
+    .text{
+        margin-top: 50px;
+        width: 50%;
+        font-size: 10px;
+    }
+    .name{
+        font-size:12px;
+    }
+    .photo{
+        height: 100px;
+        width: 100px;
+    }
+}
 
 
 
