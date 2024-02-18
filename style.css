@@ -1,0 +1,306 @@
+body {
+    background-color: #01070B;
+    margin: 0;
+    color: white;
+    font-size: 26;
+
+    
+}
+
+
+/*------------------------------------------Beta--------------------------------------------------*/
+
+
+
+/*-----------------------------------First section--------------------------------------------------------------------------------------*/
+.first-section {
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    height: 30vh;
+}
+
+.right-first {
+    width: 60%;
+}
+
+.right-first > p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.left-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-first > img {
+    padding-left: 100px; 
+    width: 400px;
+    height: 400px;
+}
+
+
+/*-----------------------------------Bootcamp invitation--------------------------------------------------------------------------------------*/
+
+.bootcamp-invitation {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding: 100px;
+}
+
+.bootcamp-invitation > h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.options-container {
+    display: flex;
+    gap: 20px;
+}
+
+.option {
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #74C048;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+.animation-container {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+
+}
+
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+
+
+
+.cards {
+    width: 344px;
+}
+
+.cards > b {
+    width: 700;
+    font-size: 24px;
+}
+
+.cards > p {
+    width: 400;
+    font-size: 22px;
+    color: #A0A0A2;
+}
+
+/* 
+.right-first, .bootcamp-invitation > h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.invitation-section-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.invitation-section-card > button{
+    border: 0;
+    background-color: black;
+}
+
+
+
+.invitation-card:checked{
+    border-bottom: 5px solid green;
+}
+
+
+.invitation-card > b {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.invitation-card > p {
+    color: #A0A0A2;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.change-card {
+    padding-top: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-1{
+    border-bottom: 5px solid #74C048;
+}
+
+.card-2{
+    align-items: center;
+    border-bottom: 2px solid green;
+}
+
+.card-2:active {
+    border-bottom: 5px solid #74C048;
+
+    .card-1 {
+        align-items: center;
+    border-bottom: 2px solid green;
+    }
+}
+
+.cards {
+    width: 344px;
+}
+
+.cards > b {
+    width: 700;
+    font-size: 24px;
+}
+
+.cards > p {
+    width: 400;
+    font-size: 22px;
+    color: #A0A0A2;
+} */
+
+/*-----------------------------------History Gefest--------------------------------------------------------------------------------------*/
+
+.history-gefest {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.history-gefest > img {
+    min-width: 55%;
+}
+
+ 
+/*-----------------------------------Boot information section--------------------------------------------------------------------------------------*/
+
+.bootcamp-information-section {
+    padding: 100px;
+}
+
+.bootcamp-information-section > b {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.bootcamp-information-section > p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*-----------------------------------Boot information section--------------------------------------------------------------------------------------*/
+
+.student-case-section {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cases-student {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.student-case-card {
+    
+}
+
+/*-----------------------------------job openings section--------------------------------------------------------------------------------------*/
+
+.job-openings-section {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#img-job-openings {
+    width: 100%;
+
+}
+
+.job-all > img{
+}
+
+.all-b {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*-----------------------------------input section--------------------------------------------------------------------------------------*/
+
+.input-section {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    font-size: 200%;
+}
+
+#slider-container {
+
+    background-color: #74C048;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    padding: 25px 100px;
+}
+
+#year-slider {
+    width: 100%;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+
+/*-----------------------------------Task reduce Amount--------------------------------------------------------------------------------------*/
+
+#task-reduce-amount {
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+#tasks-container {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+#repost-task {
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 20px;
+}
