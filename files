@@ -1,17 +1,17 @@
-import { Sandpack } from "@codesandbox/sandpack-react";
-
-export default function App() {
+import { Sandpack } from '@codesandbox/sandpack-react';
+const files = {
+  '/App.js': `
+import React from 'react';
+function App() {
+  const [count, setCount] = React.useState(0);
+  
   return (
-    <Sandpack 
-      template="react"
-      options={{
-        externalResources: ["https://cdn.tailwindcss.com"]
-      }}  
-      files={{
-        "/App.js": `export default function App() {
-  return <div className ='bg-green-50'>Hello Sandpackk</div>
-}`,
-      }}
-    />
+    <button onClick={() => setCount(count + 1)}>
+      Count: {count}
+    </button>
   );
 }
+export default App;
+  `,
+};
+<Sandpack template="react" files={files} />
