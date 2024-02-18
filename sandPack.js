@@ -9,7 +9,7 @@ export default function App() {
       }}  
       files={{
         "/App.js": `export default function App() {
-  return <div className ='bg-gray-50'>Hello Sandpack</div>
+  return <div className ='bg-green-50'>Hello Sandpackk</div>
 }`,
       }}
     />
