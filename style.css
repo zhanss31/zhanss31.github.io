@@ -23,9 +23,24 @@ a {
 }
 
 .right-first {
-    width: 60%;
+    width: 50%;
+}
+.big-text{
+    font-size: 90px;
+    text-align: center;
 }
 
+.middle-text{
+    font-size: 60px;
+}
+
+.text-background-green{
+    background-color: #74C048;
+    border-radius: 10px;
+    text-align: center;
+    color:aliceblue;
+
+}
 .right-first > p {
     font-size: 24px;
     font-weight: 400;
@@ -40,8 +55,8 @@ a {
 .left-first > img {
     padding-left: 100px; 
     padding-top: 0;
-    width: 400px;
-    height: 400px;
+    width: 550px;
+    height: 550px;
 }
 
 
